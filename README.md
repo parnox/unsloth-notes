@@ -65,12 +65,35 @@ Tested on 2GPU setup. Initial integration of FSDP2 with QLoRA.
 
 State:
 Graph breaks down by around 50%, but training loss suffers. Currently: monkey patching bnb matmul and adjacent.
-
 - Part D:
-  - [ ] Each issue (+1, max 12)
+  - Unavailable - VLMs Data Collator
+    - [#55](https://github.com/unslothai/unsloth-zoo/pull/55)
+    - [#56](https://github.com/unslothai/unsloth-zoo/pull/56)
+
+  - Unavailable - VLMs image resizing
+    - [#1808](https://github.com/unslothai/unsloth/pull/1808)
+
+  - Unavailable - GGUF Vision support
+    - [#1799](https://github.com/unslothai/unsloth/pull/1799)
+
+  - Unavailable - Support Flex Attention
+    - [#1803](https://github.com/unslothai/unsloth/pull/1803)
+
+  - Available - Support Sequence Classification
+    - Rejected: [#1739](https://github.com/unslothai/unsloth/pull/1739)
+
+  - Available - Refactor Attention
+
+  - Unavailable - Tool Calling
+    - [#1764](https://github.com/unslothai/unsloth/pull/1764)
+
+  - Available - VLMs train only on completions
+    - Rejected: [#1736](https://github.com/unslothai/unsloth/pull/1736)
+
+  - [ ] Other issues (+1/+2, max 12)
 
 State:
-No progress.
+Preliminary reading of issues and PRs.
 
 - Part E (if attempted):
   - [x] VRAM 50% reduction (+2)
@@ -85,3 +108,4 @@ No progress.
 
 State:
 Complete. 
+
